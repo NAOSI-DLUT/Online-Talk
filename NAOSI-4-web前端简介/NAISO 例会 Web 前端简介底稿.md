@@ -24,7 +24,7 @@
 
 有了以上两个软件，图书馆就实现了一套完整的在线座位预约系统。这个例子总体上概括了现代常见的 Web 应用架构，其中第一个软件称为后端，第二个软件称为 Web server， web server 提供的网页称为前端。请注意这两个软件与 client-server 架构的关系：后端和 Web server 都运行在 server 服务器上，而只有网页前端交给了 client。
 
-当我们用浏览器打开 [https://seat.lib.dlut.edu.cn/yanxiujian/client/index.php#](https://seat.lib.dlut.edu.cn/yanxiujian/client/index.php#) 这个链接时，发生了什么呢？
+当我们用浏览器打开 [http://seat.lib.dlut.edu.cn/yanxiujian/client/index.php#](http://seat.lib.dlut.edu.cn/yanxiujian/client/index.php#) 这个链接时，发生了什么呢？
 
 首先，我们眼前的这个页面是一个 HTML 文件。HTML 是一种超文本标记语言。超文本指的是，与单纯的文本（例如我们在记事本里写的那些）相比，它可以进一步标记文本的标题、段落、字体等信息，还可以加上图片、排版、甚至是互动功能。其中用于排版的部分称为 CSS，用于实现交互功能的部分称为 JavaScript。这是运行在 client 的部分，也就是网页前端本身，通过浏览器可以向用户展现出丰富的内容。
 
