@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>玻璃态样例</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      height: 100vh;
+      background: #2c3e50;
+    }
+
+    .circle1{
+      position: absolute;
+      z-index: -1;
+      border-radius: 50%;
+      width: 500px;
+      height: 500px;
+      left: 30%;
+      top: 8%;
+      background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    }
+
+    .circle2{
+      position: absolute;
+      z-index: -1;
+      border-radius: 50%;
+      width: 300px;
+      height: 300px;
+      right: 30%;
+      bottom: 3%;
+      background: linear-gradient(-40deg, #00b894, #00cec9, #55efc4);
+    }
+
+    .circle3{
+      position: absolute;
+      z-index: -1;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      left: 40%;
+      bottom: 8%;
+      background: linear-gradient(-135deg, #d35400, #e67e22, #f39c12);
+    }
+
+    .glass-plate-0{
+      position: absolute;
+      border-radius: 12px;
+      left: 35%;
+      top: 10%;
+      width: 30%;
+      height: 80vh;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(15px);
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      border-left: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .plate-1{
+      position: absolute;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      border-left: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.2);
+    }
+
+    .left-top-plate-1{
+      left: 5%;
+      top: 7%;
+      width: 55%;
+      height: 36%;
+    }
+
+    .right-top-plate-1{
+      right: 5%;
+      top: 5%;
+      width: 30%;
+      height: 40%;
+    }
+
+    .left-middle-plate-1{
+      border-radius: 4px;
+      left: 5%;
+      top: 50%;
+      width: 5%;
+      height: 15%;
+    }
+
+    .right-middle-plate-1{
+      left: 15%;
+      top: 52.5%;
+      width: 80%;
+      height: 10%;
+    }
+
+    .bottom-plate-1{
+      left: 5%;
+      top: 70%;
+      width: 90%;
+      height: 25%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .plate-2{
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(15px);
+      border-top: 1px solid rgba(255, 255, 255, 0.4);
+      border-left: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.2);
+    }
+
+    .left-top-plate__bottom-plate{
+      position: absolute;
+      left: 5%;
+      top: 55%;
+      width: 90%;
+      height: 40%;
+    }
+
+    .bottom-plate_item{
+      position: relative;
+      width: 60px;
+      height: 60px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div class="circle3"></div>
+<div class="glass-plate-0">
+  <div class="left-top-plate-1 plate-1">
+    <div class="left-top-plate__bottom-plate plate-2"></div>
+  </div>
+  <div class="right-top-plate-1 plate-1"></div>
+  <div class="left-middle-plate-1 plate-1"></div>
+  <div class="right-middle-plate-1 plate-1"></div>
+  <div class="bottom-plate-1 plate-1">
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+    <div class="bottom-plate_item plate-2"></div>
+  </div>
+</div>
+</body>
+</html>
