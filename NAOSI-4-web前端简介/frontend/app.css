@@ -1,0 +1,11 @@
+.center {
+    text-align: center;
+}
+
+.message {
+    border-radius: 5px;
+}
+
+#name {
+    width: 50px;
+}

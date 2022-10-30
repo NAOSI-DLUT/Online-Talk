@@ -4,6 +4,9 @@ app = Flask(__name__)
 
 messages = []
 
+@app.route("/")
+def hello():
+    return "hello"
 
 @app.route("/get_messages")
 def check():
