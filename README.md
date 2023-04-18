@@ -19,4 +19,4 @@
 
 ## Copyleft
 
-Copyleft©️NNAOSI
+Copyleft©️NAOSI
