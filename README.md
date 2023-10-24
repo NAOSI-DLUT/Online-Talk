@@ -16,6 +16,7 @@
 * [「NAOSI-DLUT」第3次例会录屏](https://www.bilibili.com/video/BV1me4y1q7sE)
 * [「NAOSI-DLUT」第4次例会录屏](https://www.bilibili.com/video/BV1be4y147PD)
 * [「NAOSI-DLUT」第5次例会录屏](https://www.bilibili.com/video/BV1aj411c7gF)
+* [「NAOSI-DLUT」第6次例会录屏](https://www.bilibili.com/video/BV1CC4y1L7w3)
 
 ## Copyleft
 
